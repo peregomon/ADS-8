@@ -9,12 +9,12 @@ class Train {
     Cage *next;
     Cage *prev;
   };
-  int countOp; 
-  Cage *first; 
+  int countOp;
+  Cage *first;
  public:
   Train() : countOp(0), first(nullptr) {}
-  void addCage(bool light); 
-  int getLength();       
-  int getOpCount() { return countOp; } 
+  void addCage(bool light);
+  int getLength();   
+  int getOpCount() { return countOp; }
 };
 #endif  // INCLUDE_TRAIN_H_
