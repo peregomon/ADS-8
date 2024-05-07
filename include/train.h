@@ -14,7 +14,7 @@ class Train {
  public:
   Train() : countOp(0), first(nullptr) {}
   void addCage(bool light);
-  int getLength();   
+  int getLength();
   int getOpCount() { return countOp; }
 };
 #endif  // INCLUDE_TRAIN_H_
